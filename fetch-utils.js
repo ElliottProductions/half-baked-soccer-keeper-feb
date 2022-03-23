@@ -30,7 +30,7 @@ export async function getGames() {
     // select all games from the games table
     const response = await client
         .from('games')
-        .select()
+        .select();
     return checkError(response);    
 }
 
