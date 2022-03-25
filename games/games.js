@@ -124,5 +124,4 @@ async function displayAllGames() {
     // render and append a past game for each past game in state
 }
 
-
 displayCurrentGameEl();
